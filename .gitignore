@@ -9,3 +9,12 @@ build/
 .vercel/
 *.pyc
 __pycache__/
+# === Proteccion de credenciales (agregado 2026-11) ===
+.env
+.env.*
+!.env.example
+.env.bak*
+.env.pre-*
+*.bak-*
+*.pem
+*.key
